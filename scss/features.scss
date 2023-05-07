@@ -1,0 +1,53 @@
+.features {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ background: url(../images/2back.png);
+ background-size: cover;
+ height: 595px;
+ padding-right: 20%;
+}
+
+.square {
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ margin: 1%;
+ height: 64px;
+ width: 64px;
+ background: #E27866;
+ color: #FFFFFF;
+ margin-left: 151px;
+ font-size: 0.7em;
+ margin: auto;
+ margin-left: 151px;
+}
+
+.rotate {
+ transform: rotate(-45deg);
+}
+
+.elements {
+ display: grid;
+ margin: auto;
+ padding-top: 200px;
+ padding-bottom: 200px;
+ gap: 20px;
+ padding-right: 100px;
+}
+
+.info {
+ display: grid;
+ padding-top: 200px;
+ padding-bottom: 200px;
+ gap: 20px;
+ width: 640px;
+}
+
+.infoh {
+ color: #FFFFFF;
+ font-weight: 500;
+}
+
+.infop {
+ color: #FFFFFF;
+}

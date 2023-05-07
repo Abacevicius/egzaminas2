@@ -1,0 +1,89 @@
+.container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ border-radius: 10px;
+}
+
+.form {
+ width: 360px;
+ height: 425px;
+ background: #FFFFFF;
+ margin-top: 180px;
+ margin-left: 80px;
+ border: none;
+ border-radius: 5px;
+}
+
+.formh {
+ color: black;
+ text-align: center;
+ font-weight: 600;
+ background-color: #F5F5F5;
+ padding: 15px;
+ border-radius: 5px;
+}
+
+.free {
+ color: green;
+}
+
+.formh3 {
+ color: black;
+ margin-top: 30px;
+ margin-left: 40px;
+ font-size: 1em;
+}
+
+input {
+ color: black;
+ margin-top: 30px;
+ margin-left: 40px;
+ width: 250px;
+ padding: 5px;
+ border: none;
+ border-bottom: 1px solid #D8D8D8;
+}
+
+.checkbox {
+ display: flex;
+ flex-direction: row;
+ justify-content: left;
+ margin-top: -20px;
+ padding-left: 10px;
+ font-size: 10px;
+ appearance: none;
+}
+
+label {
+ color: black;
+ margin-top: 30px;
+ margin-left: -30px;
+}
+
+.get {
+ color: #FFFFFF;
+ text-align: center;
+ font-weight: 400;
+ background-color: #41D395;
+ padding: 18px;
+ border-radius: 5px;
+ width: 100%;
+}
+
+.info {
+ margin: auto;
+}
+
+.formi {
+ margin-left: -91px;
+ margin-right: -82px;
+}
+
+.labelf {
+ padding-left: -40px;
+}
+
+.fimages {
+ margin: auto;
+}

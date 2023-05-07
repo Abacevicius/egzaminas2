@@ -1,0 +1,33 @@
+.social {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ height: 105px;
+ background-color: #FFFFFF;
+ width: 90%;
+}
+
+.social-media {
+ max-width: 400px;
+ margin-left: 10px;
+}
+
+.soch {
+ margin-left: 20px;
+ font-weight: 500;
+}
+
+.socialp {
+ margin-left: 20px;
+ color: #86878B;
+}
+
+.icons {
+ display: flex;
+ flex-direction: row;
+ justify-content: right;
+ margin-top: 35px;
+ font-size: 2em;
+ color: #E27866;
+ gap: 100px;
+}

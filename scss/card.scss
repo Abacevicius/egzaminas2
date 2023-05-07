@@ -1,0 +1,46 @@
+.card {
+ display: grid;
+ flex-wrap: wrap;
+ grid-template-columns: repeat(2, 1fr);
+ height: 596px;
+ background: #1c1c1c;
+ margin: auto;
+}
+
+.content-1 {
+ margin: auto;
+}
+
+.img {
+ margin: auto;
+}
+
+h3,
+p,
+h4 {
+ margin: auto;
+ color: #FFFFFF;
+}
+
+.fa-eye,
+.fa-comment {
+ color: #E27866;
+ font-size: 2.5em;
+}
+
+.cont {
+ color: #E27866;
+ width: 200px;
+ border: 1px solid;
+}
+
+
+h3 {
+ font-size: 2em;
+}
+
+.icon {
+ display: flex;
+ gap: 30px;
+ padding: 20px;
+}

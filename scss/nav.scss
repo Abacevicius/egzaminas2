@@ -1,0 +1,37 @@
+nav {
+ background: #1C1C1C;
+ height: 60px;
+ width: 100%;
+ padding-left: 100px;
+ padding-right: 100px;
+ position: fixed;
+}
+
+ul,
+li {
+ display: flex;
+ justify-content: right;
+ margin-top: -20px;
+ gap: 40px;
+ color: #FFFFFF;
+ cursor: pointer;
+}
+
+.logo {
+ margin: auto;
+}
+
+.links ul li {
+ transition: transform 0.2s ease-in-out;
+}
+
+.links ul li:hover {
+ transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+ .content {
+  display: flex;
+  flex-wrap: wrap;
+ }
+}

@@ -1,0 +1,49 @@
+.container {
+ display: grid;
+ flex-wrap: wrap;
+ grid-template-columns: 2, 1fr;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ height: 680px;
+ width: 100vw;
+ background: url(../images/fono.png);
+ background-size: cover;
+ opacity: 0.63;
+ color: #FFFFFF;
+}
+
+.content {
+ padding-top: 150px;
+ margin-left: 150px;
+ max-width: 500px;
+ line-height: 60px;
+ margin: auto;
+}
+
+p {
+ line-height: 20px;
+ font-weight: 500;
+ font-size: 0.8em;
+}
+
+h1 {
+ max-width: 430px;
+ line-height: 30px;
+}
+
+hr {
+ width: 70px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ border-bottom: 2px solid;
+}
+
+button {
+ border: 3px solid;
+ margin-top: 30px;
+ padding: 15px 15px 10px;
+ background-color: transparent;
+ color: white;
+ font-weight: 500;
+}
